@@ -1,8 +1,14 @@
 const Typo = require("typo-js");
 
-// var dictionary = new Typo(['de_DE', false, false, { dictionaryPath: "typo/dictionaries" }]);
-const dictionary = new Typo("en_US");
+const dictionary = new Typo('de_DE', false, false, { dictionaryPath: "dics" });
+// const dictionary = new Typo("en_US");
 
-let is_spelled_correctly = dictionary.check("hotel");
+console.log("the word is: Vergleich");
+let word = 'Vergleich';
 
-console.log(is_spelled_correctly);
+let is_spelled_correctly = dictionary.check(word);
+
+let array_of_suggestions = dictionary.suggest(word);
+
+console.log(` is ${word} correct in DE? ${is_spelled_correctly}`);
+console.log(` suggestion for it: ${array_of_suggestions}`);
