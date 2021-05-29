@@ -3,8 +3,8 @@ const Typo = require("typo-js");
 const dictionary = new Typo('de_DE', false, false, { dictionaryPath: "dics" });
 // const dictionary = new Typo("en_US");
 
-console.log("the word is: Vergleich");
-let word = 'Vergleich';
+// console.log("the word is: Rate");
+let word = 'Zwangsvollstreckung';
 
 let is_spelled_correctly = dictionary.check(word);
 

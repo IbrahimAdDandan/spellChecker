@@ -4,7 +4,7 @@
   "description": "spell checker free BSD3 basedon LibreOffice dictionaries",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/IbrahimAdDandan/spellChecker#readme",
   "dependencies": {
+    "nodemon": "^2.0.7",
     "typo-js": "^1.2.0"
   }
 }
