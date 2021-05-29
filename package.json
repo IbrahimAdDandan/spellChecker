@@ -1,0 +1,30 @@
+{
+  "name": "typospellchecker",
+  "version": "1.0.0",
+  "description": "spell checker free BSD3 basedon LibreOffice dictionaries",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IbrahimAdDandan/spellChecker.git"
+  },
+  "keywords": [
+    "spell",
+    "checker",
+    "language",
+    "NLP",
+    "auto-correction"
+  ],
+  "author": "Ibrahim AdDandan",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/IbrahimAdDandan/spellChecker/issues"
+  },
+  "homepage": "https://github.com/IbrahimAdDandan/spellChecker#readme",
+  "dependencies": {
+    "typo-js": "^1.2.0"
+  }
+}
